@@ -1,11 +1,11 @@
 /* Variables  */
 :root {
-	--main: blue;
+	--main: salmon;
 	--dark: black;
 	--light: white;
 	--mid: grey;
 	--border: lightblue;
-	--alert: orange;
+	--alert: blue;
 	--html: rgb(28, 28, 28);
 }
 
