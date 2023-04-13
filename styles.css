@@ -1,12 +1,19 @@
+
 /* Variables  */
 :root {
-	--main: salmon;
-	--dark: black;
-	--light: white;
-	--mid: grey;
-	--border: lightblue;
-	--alert: blue;
-	--html: rgb(28, 28, 28);
+--cor0: #c5ebd6;
+--cor1: #83e1ad;
+--cor2: #3ddc84;
+--cor3: #2fa866;
+--cor4: #1a5c37;
+--cor5: #093d1e;
+--main: salmon;
+--dark: black;
+--light: white;
+--mid: grey;
+--border: lightblue;
+--alert: blue;
+--html: rgb(28, 28, 28);
 }
 
 /* General */
@@ -51,11 +58,14 @@ input[type="checkbox"] {
 	display: nome;
         }
         /* Dark Theme */
+/* Dark Theme */
 .dark,
-.dark header {
-  background-color: #263238;
-  color: #fff;
+.dark header, .nav {
+background-image: linear-gradient(to top,black,grey);
+  color:white;
+font-weight: bold;
 }
+
 
 
 /* Fonts */
@@ -105,7 +115,7 @@ button {
 	min-height: 5svh;
 	padding: 0.7rem 1rem;
 	color: var(--light);
-	background-color: var(--main);
+	background-color: teal;
 }
 
 /* Main */
@@ -126,6 +136,29 @@ button {
 	margin-left: 0.3em;
 	margin-right: 1em;
 }
+/* Buttons / Links / li  ***/
+.nav {
+	font-size: 14px;
+	width: 100%;
+	background-color:red;
+	padding: 10px;
+	text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363);
+	justify-content: space-between;
+	}
+	nav > a {
+	    color: white;
+	    padding: 10px;
+	    text-decoration: none;
+	    font-weight: bold;
+	    transition-duration: 0.5;
+	    justify-content: space-between;
+	}
+	nav > a:hover {
+	    background-color: var(--dark);
+	    color: var(--alert);
+	    justify-content: space-between;
+	}
+
 
 /* main-section */
 .section-container {
@@ -152,7 +185,9 @@ button {
 /* Chart */
 .chart-container {
 	padding: 2rem;
-	border: 1px solid var(--border);
+	border: 1px solid var(--cor0);
+	
+	
 }
 
 /* Images */
@@ -195,8 +230,8 @@ button {
 .footer-container {
 	min-height: 5svh;
 	padding: 0.5rem 0;
-	color: var(--main);
-	background-color: var(--main);
+	color: var(--cor0);
+	background-color: slateblue;
 }
 
 p.footer {

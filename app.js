@@ -215,6 +215,7 @@ function renderChart() {
 				backgroundColor: ['blue'],
 				borderColor: ['orange'],
 				borderWidth: 2,
+			
 			},
 			{
 				label: 'Clicks',
