@@ -37,6 +37,27 @@ body {
 	align-items: center;
 }
 
+/* dark mode */
+input[type="checkbox"] {
+	display: none;
+        }
+        
+        .bi {
+	font-size: 1.3rem;
+	cursor: pointer;
+        }
+        
+        .bi-moon {
+	display: nome;
+        }
+        /* Dark Theme */
+.dark,
+.dark header {
+  background-color: #263238;
+  color: #fff;
+}
+
+
 /* Fonts */
 h1 {
 	font-size: clamp(1.5rem, 3.5vw, 3.5rem);
