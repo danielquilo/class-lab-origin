@@ -66,12 +66,15 @@ background-image: linear-gradient(to top,black,grey);
 font-weight: bold;
 }
 
-
+label {
+	padding: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+        }
+     
 
 /* Fonts */
-h1 {
-	font-size: clamp(1.5rem, 3.5vw, 3.5rem);
-}
 
 h3 {
 	font-size: clamp(1.2rem, 3vw, 2.8rem);
@@ -115,20 +118,22 @@ button {
 	min-height: 5svh;
 	padding: 0.7rem 1rem;
 	color: var(--light);
-	background-color: teal;
+	background-image: linear-gradient(to left,black,yellow);
 }
 
 /* Main */
 .main-container {
+	background-image: linear-gradient(to bottom, white,yellow,wh);
 	min-height: 89svh;
 }
 
 /* Title */
 .title-container {
+	background-image: to linear-gradient(to right, black, yellow);
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-between;
 	padding: 0.5rem;
-	border: 1px solid var(--border);
+	border: 5px solid var(--border);
 }
 
 .logo img {
@@ -228,13 +233,15 @@ button {
 
 /* Footer */
 .footer-container {
+	justify-content: space-between;
 	min-height: 5svh;
 	padding: 0.5rem 0;
 	color: var(--cor0);
-	background-color: slateblue;
+	background-image: linear-gradient(to left,black,yellow);
 }
 
 p.footer {
 	text-align: center;
 	color: var(--light);
 }
+
